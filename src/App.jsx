@@ -1,9 +1,11 @@
+import "./App.css";
+
 const App = () => {
   return (
     <div>
       <nav>
         <div className="logo">
-          <img src="https://reactjs.org/logo-og.png" alt="logo" />
+          <img src="/images/brand_logo.png" alt="" />
         </div>
         <ul>
           <li href="">Menu</li>
