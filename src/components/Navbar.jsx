@@ -1,8 +1,10 @@
+import brandLogo from "/public/assets/brand_logo.png";
+
 const Navbar = () => {
   return (
     <nav className="container">
       <div className="logoNavbar">
-        <img src="/public/assets/brand_logo.png" alt="logo" />
+        <img src={brandLogo} alt="logo" />
       </div>
       <ul>
         <li href="#">Menu</li>
