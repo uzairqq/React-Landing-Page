@@ -1,5 +1,3 @@
-import "../../public/img/shoe_image.png";
-
 const MainContent = () => {
   return (
     <main className="main container">
@@ -23,7 +21,7 @@ const MainContent = () => {
         </div>
       </div>
       <div className="main-image">
-        <img src="../../public/img/shoe_image.png" alt="shoes" />
+        <img src="/public/img/shoe_image.png" alt="shoes" />
       </div>
     </main>
   );
