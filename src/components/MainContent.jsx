@@ -1,3 +1,7 @@
+import flipKart from "/assets/flipkart.png";
+import amazon from "/assets/amazon.png";
+import shoeImage from "/assets/shoe_image.png";
+
 const MainContent = () => {
   return (
     <main className="main container">
@@ -15,13 +19,13 @@ const MainContent = () => {
         <div className="main-shopping">
           <p>Also Available On</p>
           <div className="main-brand-icons">
-            <img src="/public/assets/flipkart.png" alt="flipkart" />
-            <img src="/public/assets/amazon.png" alt="amazon" />
+            <img src={flipKart} alt="flipkart" />
+            <img src={amazon} alt="amazon" />
           </div>
         </div>
       </div>
       <div className="main-image">
-        <img src="/public/assets/shoe_image.png" alt="shoes" />
+        <img src={shoeImage} alt="shoes" />
       </div>
     </main>
   );
