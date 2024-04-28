@@ -15,13 +15,13 @@ const MainContent = () => {
         <div className="main-shopping">
           <p>Also Available On</p>
           <div className="main-brand-icons">
-            <img src="/public/img/flipkart.png" alt="flipkart" />
-            <img src="/public/img/amazon.png" alt="amazon" />
+            <img src="/public/assets/flipkart.png" alt="flipkart" />
+            <img src="/public/assets/amazon.png" alt="amazon" />
           </div>
         </div>
       </div>
       <div className="main-image">
-        <img src="/public/img/shoe_image.png" alt="shoes" />
+        <img src="/public/assets/shoe_image.png" alt="shoes" />
       </div>
     </main>
   );
