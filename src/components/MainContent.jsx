@@ -1,3 +1,5 @@
+import "../../public/img/shoe_image.png";
+
 const MainContent = () => {
   return (
     <main className="main container">
